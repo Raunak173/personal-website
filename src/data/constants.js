@@ -6,10 +6,10 @@ export const Bio = {
     "Golang Backend Developer",
   ],
   description:
-    "I am a dedicated React Native and Golang developer with 2 years of hands-on experience in designing, building and deploying high-quality mobile applications for both iOS and Android platforms and providing scalable backend solutions. I am also the winner of Smart India Hackathon 2022.",
+    "I am a dedicated React Native and Golang developer with around 3 years of hands-on experience in designing, building and deploying high-quality mobile applications for both iOS and Android platforms and providing scalable backend solutions. I am also the winner of Smart India Hackathon 2022.",
   github: "https://github.com/raunak173",
   resume:
-    "https://drive.google.com/file/d/1mCdzI5dMAT4DBUTX_ZMTSX0JTCFPRo6U/view?usp=sharing",
+    "https://drive.google.com/file/d/1LQSXSjzl51RGqEcmJuUEEcOzO3a7hWPf/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/raunakagarwal173/",
   twitter: "https://twitter.com/raunak_173",
   insta: "https://www.instagram.com/raunak_agarwal_/",
@@ -142,10 +142,26 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://play-lh.googleusercontent.com/7doL4LTavTVEG8B3NdDfZqm44sm9__MXNlhz6YobzZxMY5rvCgMmf6dyLAColCMSuU4=w240-h480-rw",
+    role: "Frontend Engineer (React Native)",
+    company: "Alyke",
+    date: "Jan 2025 - Present",
+    desc: "Led the development and optimization of the Alyke app, the world’s first friendship app, enhancing performance and user experience through efficient code refactoring and bug fixes. Integrated Meta Analytics, Revopush OTA, and Fastlane, streamlining deployment and improving tracking of user interactions for data-driven insights and Implemented real-time messaging using Firestore and React Native Gifted Chat, ensuring a seamless chat experience, and utilized Redux and Redux-Saga for efficient state management.",
+    skills: [
+      "React Native",
+      "Typescript",
+      "Javascript",
+      "Android studio",
+      "X Code",
+    ],
+    // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+  },
+  {
+    id: 0,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDN-wdoAiyDHgNjqZs3DeSxwYM2wc8mYDTVQ&s",
     role: "SDE-1 (React Native)",
     company: "TapHealth",
-    date: "Aug 2024 - Present",
+    date: "Aug 2024 - Jan 2025",
     desc: "Spearheaded the release management of a cross-platform health tech app on the Play Store and App Store, ensuring seamless deployment and version updates. Optimized the app’s codebase for improved performance and efficiency, resulting in faster load times and smoother user interactions. Developed and implemented dynamic, animated UIs and new features such as diet tracking and DTX (Digital Therapeutics) modules to enhance user engagement, using React Native. Ensured seamless functionality across both Android and iOS platforms while improving app scalability to support future growth and feature additions.",
     skills: [
       "React Native",
@@ -158,8 +174,8 @@ export const experiences = [
   },
   {
     id: 0,
-    // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-    role: "Frontend Developer (React Native)",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgl4a4RxO1LKn1edeAM7FkMBdMTMMT_jFbVA&s",
+    role: "Frontend Developer (React Native & React JS)",
     company: "Sigiq AI (Stealth)",
     date: "Apr 2024 - Aug 2024",
     desc: "Contributed to the PadhAi app, the world’s only AI app that cracked the UPSC exam and topped it with a score of 175+ marks, using React Native. Developed a live website for an important event with over 10,000 footfalls using React. Created a live web app with AI capabilities for UPSC teachers to grade essays.",
@@ -195,7 +211,7 @@ export const experiences = [
   {
     id: 2,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7cEoQTCU449dh3f0GBiBKY2uhUKX6QFS2uA&s",
-    role: "Full Stack Intern",
+    role: "Full Stack Intern (React Native & Spring Boot)",
     company: "Doeasily",
     date: "Aug 2023 - Nov 2023",
     desc: "Pioneered the creation of the DoEasily fintech app for the gold and silver market using React Native, achieving a 100% project completion rate. Engineered high-performance APIs with Java and Spring Boot, resulting in a 30% reduction in data retrieval time and a 20% improvement in app response speed.",
@@ -211,7 +227,7 @@ export const experiences = [
   {
     id: 3,
     img: "https://production-cuvette.s3.ap-south-1.amazonaws.com/company/623c5a7b8660bf4e67072d40/logo.jpg?d=1648122703746",
-    role: "SDET Intern",
+    role: "SDET Intern (React Native & Appium & Express JS)",
     company: "Medbikri",
     date: "Dec 2022 - July 2022",
     desc: "Spearheaded the development of a React Native mobile application, serving 100,000+ users. Enabled seamless and intuitive user experiences through precisely crafted Express APIs, resulting in increased user engagement and higher conversion rates. Automated testing with Appium, significantly reducing bugs by 70% and enhancing software quality.",
