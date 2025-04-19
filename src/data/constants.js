@@ -9,7 +9,7 @@ export const Bio = {
     "I am a dedicated React Native and Golang developer with around 3 years of hands-on experience in designing, building and deploying high-quality mobile applications for both iOS and Android platforms and providing scalable backend solutions. I am also the winner of Smart India Hackathon 2022.",
   github: "https://github.com/raunak173",
   resume:
-    "https://drive.google.com/file/d/1LQSXSjzl51RGqEcmJuUEEcOzO3a7hWPf/view?usp=sharing",
+    "https://drive.google.com/file/d/1bpCF96wWP8dzKGLubjIlypPg-gVuepvG/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/raunakagarwal173/",
   twitter: "https://twitter.com/raunak_173",
   insta: "https://www.instagram.com/raunak_agarwal_/",
