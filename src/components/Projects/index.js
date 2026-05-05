@@ -6,15 +6,12 @@ import {
   Title,
   Desc,
   CardContainer,
-  ToggleButtonGroup,
-  ToggleButton,
-  Divider,
 } from "./ProjectsStyle";
 import ProjectCard from "../Cards/ProjectCards";
 import { projects } from "../../data/constants";
 
 const Projects = ({ openModal, setOpenModal }) => {
-  const [toggle, setToggle] = useState("all");
+  const [toggle] = useState("all");
   return (
     <Container id="projects">
       <Wrapper>
@@ -50,17 +47,19 @@ const Projects = ({ openModal, setOpenModal }) => {
         </ToggleButtonGroup> */}
         <CardContainer>
           {toggle === "all" &&
-            projects.map((project) => (
+            projects.map((project, index) => (
               <ProjectCard
+                key={`${project.title}-${index}`}
                 project={project}
                 openModal={openModal}
                 setOpenModal={setOpenModal}
               />
             ))}
           {projects
-            .filter((item) => item.category == toggle)
-            .map((project) => (
+            .filter((item) => item.category === toggle)
+            .map((project, index) => (
               <ProjectCard
+                key={`${project.title}-${index}`}
                 project={project}
                 openModal={openModal}
                 setOpenModal={setOpenModal}
